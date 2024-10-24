@@ -71,7 +71,7 @@ include(FetchContent)
 
 FetchContent_Declare(
   repo-third-party
-  GIT_REPOSITORY ${TRITON_REPO_ORGANIZATION}/third_party.git
+  GIT_REPOSITORY https://github.com/brucehzsun/third_party.git
   GIT_TAG ${TRITON_THIRD_PARTY_REPO_TAG}
   GIT_SHALLOW ON
 )
